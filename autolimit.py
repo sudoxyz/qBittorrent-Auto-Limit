@@ -75,10 +75,10 @@ def appList(speed, applications, qbt_client): # --list
 
 def main():
     conn_info = dict(
-        host="192.168.0.223", # Ip of qBittorrent WebUI
+        host="x.x.x.x", # Ip of qBittorrent WebUI
         port=8080, # port of qBittorrent WebUI
-        username="admin", # User
-        password="ethan404", # Passwd
+        username="", # User
+        password="", # Passwd
     )
     
     # applications = ['r5apex', 'cs2', 'bfv', 'TslGame', 'Rounds', 'Terraria'] # Change / add any of these to be the name of the executables that you want to detect
