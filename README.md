@@ -19,12 +19,16 @@ This python program uses the qBittorrent-api module to interact with the WebUI a
 python3 autolimit.py [Options]
 ```
 ```
+--downloads
+    Shows all active downloads w/ info
+```
+```
 --apps [speed] [name]
-    run the program to look for a single app 
+    Run the program to look for a single app 
 ```
 ```
 --list
-    run the program to look for all apps in the list
+    Run the program to look for all apps in set list
 ```
 ```
 --help
@@ -37,5 +41,6 @@ Running with no args will default to the manual mode
 ```
 python3 autolimit.py --apps 1 Notepad
 ```
-This will look for Notepad. If its found the download speed will be limited to 1mb/s
+This will look for Notepad.exe
+If its found the download speed will be limited to 1mb/s
 
